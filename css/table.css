@@ -1,0 +1,71 @@
+
+td:last-child {
+    text-align:center;
+}
+.form-inline{
+    display: inherit !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    margin-left: 80%!important;
+}
+
+.btn-group>.btn{
+    border: 1px solid #dee2e6;
+}
+
+.dt-buttons.btn-group {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+div#table_info {
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+@media (max-width: 1700px) and (min-width: 768px), (min-width: 768px){
+.navbar-collapse.collapse {
+   
+    height: 58px!important;
+   
+}
+}
+th.sorting {
+    width: 10% !important;
+}
+
+table#table {
+    width: 80% !important;
+    margin-left: 1%;
+}
+.table.table-bordered.dataTable th{
+    width: 5% !important;
+}
+td {
+    width: 5%;
+}
+
+table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    content: "\25BC"!important;
+}
+table.dataTable thead .sorting_asc:after {
+    content: "\25B2" !important;
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: "\25B2" !important;
+}
+input#input-datecost,#input-group_cost,input#input-descriptions_cost,
+input#currency-field,select#input-select{
+    width: 50%;
+}
+.modal-content {
+    margin-top: 75%;
+}
+.modal-footer {
+    display: contents !important;
+}

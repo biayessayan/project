@@ -1,0 +1,52 @@
+.form-group {
+    margin-bottom: 0;
+    padding: 10px 0;
+   
+}
+
+.form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-width: 2px;
+    min-height: 40px;
+    height: auto;
+   
+}
+
+.btn {
+    height: 40px;
+    padding: 10px 16px;
+    border-radius: 3px;
+  min-width: 80px;
+}
+
+.col-xs-12.col-sm-10.col-md-7.col-lg-6{
+    margin-top: 5% !important;
+
+}
+.container {
+  
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+label#input-date{
+    font-weight: bold !important;
+
+}
+label#input-group{
+    font-weight: bold !important;
+
+}
+label#input-descriptions{
+    font-weight: bold !important;
+
+}
+label.control-label{
+    font-weight: bold !important;
+
+}
+input#input-datecost{
+    width: 34%
+}
+
