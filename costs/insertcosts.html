@@ -6,10 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
-    
-    <!-- Bootstrap CSS -->
-    
-    
 
 
      <!-- Required meta tags -->
@@ -21,7 +17,7 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"></link>
      <link rel="stylesheet" href="/css/style.css"></link>
-    
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
      <LINK rel = "stylesheet" href=" https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic,600,600italic,800,800italic">
       <LINK rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css">
       <LINK rel = "stylesheet" href=" https://oss.maxcdn.com/icheck/1.0.2/skins/square/blue.min.css">
@@ -38,51 +34,52 @@
        <nav class="navbar navbar-expand-custom navbar-mainbg" ></nav>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 column_costs" >
-    
-         
-              <legend>COSTS</legend>
-     
-              <div class="form-group">
-                <label id="input-date" class="control-label">Date</label>
-                <input type="date" class="form-control mask-date" id="input-datecost" placeholder="dd/mm/yyyy">
-              </div> 
-              <div class="form-group">
-                <label id="input-group" class="control-label">Group of costs</label>
-                <input type="text" class="form-control" id="input-group_cost" placeholder="Group_Cost">
-                
-                </select>
-              </div>
-              <div class="form-group">
-                <label id="input-descriptions" class="control-label">Descriptions</label>
-                <input type="text" class="form-control" id="input-descriptions_cost" placeholder="Descriptions">
-              </div>
-              <div class="form-group">
-                <label for="input-money" class="control-label">Value</label>
-                
-               <input type="text" class="form-control mask-money" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="currency" placeholder="1,000,000.00">
-                <!-- <input data-type="currency"  class="form-control mask-money" id="input-money_cost" placeholder="0,00">  -->
-              </div>
-              <div class="form-group">
-                <label for="input-account" class="control-label">Account</label>
-                <select class="form-control" id="input-select">
-                  <option value="">-</option>
-                  <option value="1">Wellington</option>
-                  <option value="2">Beatris</option>
-                
-                </select>
-              </div>
-          <div class="form-group">
-
-                <button type="submit" class="btn btn-primary" id = "btn-save" >Save Data</button>
-              </div>
+       <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 column_costs" >
+      
+           
+                <legend>COSTS</legend>
        
-        
+                <div class="form-group">
+                  <label id="input-date" class="control-label">Date</label>
+                  <input type="date" class="form-control mask-date" id="input-datecost">
+                </div>
+               
+                <div class="form-group">
+                  <label id="input-group" class="control-label">Group of costs</label>
+                  <input type="text" class="form-control" id="input-group_cost" placeholder="Group_Cost"> 
+                  
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label id="input-descriptions" class="control-label">Descriptions</label>
+                  <input type="text" class="form-control" id="input-descriptions_cost" placeholder="Descriptions">
+                </div>
+                <div class="form-group">
+                  <label for="input-money" class="control-label">Value</label>
+                  
+                 <input type="text" class="form-control mask-money" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="currency" placeholder="1,000,000.00">
+                  <!-- <input data-type="currency"  class="form-control mask-money" id="input-money_cost" placeholder="0,00">  -->
+                </div>
+                <div class="form-group">
+                  <label for="input-account" class="control-label">Account</label>
+                  <select class="form-control" id="input-select">
+                    <option value="">-</option>
+                    <option value="1">Wellington</option>
+                    <option value="2">Beatris</option>
+                  
+                  </select>
+                </div>
+            <div class="form-group">
+  
+                  <button type="submit" class="btn btn-primary" id = "btn-save" >Save Data<i class="uil uil-message button__icon"></i></button>
+                </div>
+         
+          
+          </div>
         </div>
       </div>
-    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    

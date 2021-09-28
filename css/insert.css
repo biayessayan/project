@@ -1,7 +1,12 @@
 .form-group {
     margin-bottom: 0;
     padding: 10px 0;
+    text-align: center;
    
+}
+body{
+    background: linear-gradient(0deg, rgba(81,97,206,1) 0%, rgba(239,241,251,1) 30%) !important;
+    height: 910px;
 }
 
 .form-control {
@@ -17,36 +22,71 @@
     height: 40px;
     padding: 10px 16px;
     border-radius: 3px;
-  min-width: 80px;
+    min-width: 80px;
+    background: linear-gradient( -30deg, rgb(45, 189, 220), rgb(82, 96, 219) ) !important;
+    border-radius: 25px !important;
 }
+.btn:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    opacity: 0.78;
+    left: 7px;
+    
+}
+
+.uil-message:before {
+    content: '\eb23';
+}
+.uil-message:hover{
+
+position: relative;
+left: 0.2rem;
+transition: all 300ms ease-out;
+
+}
+
 
 .col-xs-12.col-sm-10.col-md-7.col-lg-6{
+   
     margin-top: 5% !important;
-
+    border-radius: 7px;
+    background: white;
+    margin-left: 25%;
+  
 }
+.row{
+    transition: transform 350ms ease-in, box-shadow 350ms ease-in;
+}
+.row :hover{
+    transform: scale(0.99);
+    box-shadow: rgb(100 100 111 / 20%) 0px 0px 0px 0px;
+}
+
 .container {
   
     font-size: 16px;
     line-height: 1.6;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
   }
-label#input-date{
+label#input-group,label#input-descriptions,label.control-label{
     font-weight: bold !important;
 
 }
-label#input-group{
-    font-weight: bold !important;
+input#input-datecost,input#input-group_cost,input#input-descriptions_cost,input#currency-field,select#input-select{
+    width: 50%;
+    background: #F0F0F0;
+    border-radius: 25px;
+    font-weight: 800 !important;
+    border: none;
+    margin-left: 25%;
+    text-align: center;
+}
+legend{
+    color: #5161ce !important;
+    font-family: fantasy !important;
+    text-align:center;
+    margin-top: 10%;
+}
 
-}
-label#input-descriptions{
-    font-weight: bold !important;
-
-}
-label.control-label{
-    font-weight: bold !important;
-
-}
-input#input-datecost{
-    width: 34%
-}
 

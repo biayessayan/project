@@ -1,5 +1,6 @@
 .body_index{
-    background: #EFF1FB;
+    background: linear-gradient(0deg, rgba(81,97,206,1) 0%, rgba(239,241,251,1) 30%);
+    height: 910px;
 }
       
 .row{
@@ -7,7 +8,7 @@
 }
 div#column_1 {
     margin-left: 4%;
-  
+    
 
 }
 
@@ -32,6 +33,7 @@ div#line2 {
     align-items: center;
     color: #fff;
     opacity: .5;
+    transition: transform 350ms ease-in, box-shadow 350ms ease-in;
 
 }
 
@@ -57,12 +59,12 @@ div#line2 {
    
 }
 .col-md-4:hover{
-box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%), 0 2px 15px 0 rgb(0 0 0 / 19%);
+
 background: #5161ceab;
-
-
-transform: scale(1.02);
+transform: scale(0.99);
+box-shadow: rgb(100 100 111 / 20%) 0px 0px 0px 0px;
 }
+
 div#box{
 
 background: #5161ce17;
